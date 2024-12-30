@@ -53,6 +53,46 @@ body {
     z-index: 2;
   }
   
+  /* Tablet View */
+  @media (max-width: 768px) {
+    .title {
+      font-size: 3rem; /* Adjusted for smaller screens */
+    }
+  
+    .countdown {
+      font-size: 1.8rem; /* Slightly smaller font */
+    }
+  
+    .celebrate-btn {
+      padding: 8px 16px;
+      font-size: 1rem; /* Adjusted button size */
+    }
+  
+    .container {
+      padding: 30px 0; /* Adjusted padding */
+    }
+  }
+  
+  /* Mobile View */
+  @media (max-width: 480px) {
+    .title {
+      font-size: 1rem; /* Smaller font for mobile */
+    }
+  
+    .countdown {
+      font-size: 1.5rem; /* Further reduced for mobile */
+    }
+  
+    .celebrate-btn {
+      padding: 6px 12px;
+      font-size: 0.9rem; /* Compact button size */
+    }
+  
+    .container {
+      padding: 20px 0; /* Reduced padding */
+    }
+  }
+  
   .cookies-container {
     position: absolute;
     width: 100%;
