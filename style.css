@@ -56,7 +56,7 @@ body {
   /* Tablet View */
   @media (max-width: 768px) {
     .title {
-      font-size: 3rem; /* Adjusted for smaller screens */
+      font-size: 2rem; /* Adjusted for smaller screens */
     }
   
     .countdown {
